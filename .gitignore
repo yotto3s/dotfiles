@@ -1,0 +1,14 @@
+*
+!*/
+
+# track this file
+!.gitignore
+# whitelist
+# bash
+!.bashrc
+!.bash_profile
+!.bash_aliases
+!conf-bash.sh
+# nvim
+!.config/nvim/
+!conf-nvim.sh
