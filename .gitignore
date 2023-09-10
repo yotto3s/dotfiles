@@ -10,5 +10,14 @@
 !.bash_aliases
 !conf-bash.sh
 # nvim
-!.config/nvim/
+!.config/nvim/init.vim
+!.config/nvim/dein/toml/dein.toml
+!.config/nvim/dein/toml/dein_lazy.toml
+!.config/nvim/dein/toml/dein_cmp.toml
+!.config/nvim/dein/toml/dein_lsp.toml
 !conf-nvim.sh
+
+# emacs
+!.emacs.d/init.el
+!.emacs.d/inits/00_packages.el
+!.emacs.d/inits/01_gauche.el
