@@ -76,11 +76,6 @@ editor["lambdalisue/suda.vim"] = {
 	cmd = { "SudaRead", "SudaWrite" },
 	config = require("editor.suda"),
 }
-editor["nathom/filetype.nvim"] = {
-	lazy = false,
-	config = require("editor.filetype"),
-}
-
 ----------------------------------------------------------------------
 --                  :treesitter related plugins                    --
 ----------------------------------------------------------------------
