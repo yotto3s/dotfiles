@@ -19,13 +19,13 @@ if [[ $(command -v dust) ]]; then
     alias du=dust
 fi
 
-if [[ $(command -v bat) ]]; then
-    alias cat=bat
-fi
+# if [[ $(command -v bat) ]]; then
+    # alias cat=bat
+# fi
 
-if [[ $(command -v fd) ]]; then
-    alias find=fd
-fi
+# if [[ $(command -v fd) ]]; then
+#    alias find=fd
+# fi
 
 if [[ $(command -v duf) ]]; then
     alias df=duf

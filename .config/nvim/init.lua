@@ -1,3 +1,5 @@
-if not vim.g.vscode then
-	require("core")
-end
+vim.g.mapleader = ' '
+require('lazy-load')
+require('key-map')
+require('configs')
+require('theme')

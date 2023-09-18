@@ -148,4 +148,7 @@ ex ()
   fi
 }
 
+#[ -f "/home/yotto/.ghcup/env" ] && source "/home/yotto/.ghcup/env" # ghcup-env
+eval "$(zoxide init bash)"
+
 [ -f "/home/yotto/.ghcup/env" ] && source "/home/yotto/.ghcup/env" # ghcup-env
