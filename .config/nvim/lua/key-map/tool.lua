@@ -9,7 +9,7 @@ vim.keymap.set('n', '<leader>b', require('telescope.builtin').buffers, { desc = 
 
 -- toggleterm
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>')
-vim.keymap.set('n', '<C-\\>', '<Cmd>ToggleTerm direction=float<CR>', { desc = 'terminal: Toggle horizontal' })
+vim.keymap.set('n', '<C-\\>', '<Cmd>ToggleTerm direction=horizontal<CR>', { desc = 'terminal: Toggle horizontal' })
 vim.keymap.set('t', '<C-\\>', '<Cmd>ToggleTerm<CR>', { desc = 'terminal: Toggle horizontal' })
 
 -- jaq (quickrun)

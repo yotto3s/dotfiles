@@ -22,5 +22,6 @@ return {
         "clangd",
         "lua_ls",
         "pylsp",
+        "purescriptls",
     },
 }
