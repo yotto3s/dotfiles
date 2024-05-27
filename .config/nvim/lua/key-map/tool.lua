@@ -17,3 +17,6 @@ vim.keymap.set('n', '<F5>', '<Cmd>Jaq<CR>')
 
 -- nvim-tree
 vim.keymap.set('n', '<C-n>', '<Cmd>NvimTreeToggle<CR>')
+
+-- win resizer
+vim.keymap.set('n', '<C-e>', '<Cmd>WinResizerStartResize<CR>')
