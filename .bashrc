@@ -152,3 +152,4 @@ ex ()
 eval "$(zoxide init bash)"
 
 [ -f "/home/yotto/.ghcup/env" ] && source "/home/yotto/.ghcup/env" # ghcup-env
+[ -f "/opt/nvim-linux64/bin" ] && PATH="$PATH:/opt/nvim-linux64/bin"
