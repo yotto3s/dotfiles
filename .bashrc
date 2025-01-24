@@ -45,6 +45,12 @@ esac
 if [[ $(command -v starship) ]]; then
     eval "$(starship init bash)"
 else
+    if ! [[ -f ~/.git-prompt.sh ]]; then
+        curl -o ~/.git-completion.sh \
+            https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
+        curl -o ~/.git-prompt.sh \
+            https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+    fi
     source ~/.git-prompt.sh
     GIT_PS1_SHOWDIRTYSTATE=true
     GIT_PS1_SHOWUNTRACKEDFILES=true

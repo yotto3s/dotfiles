@@ -52,3 +52,7 @@ fi
 if [[ $(command -v bottom) ]]; then
     alias top=bottom
 fi
+
+if [[ -e ${HOME}/.local/bin/nvim ]]; then
+    alias nvim=${HOME}/.local/bin/nvim
+fi
