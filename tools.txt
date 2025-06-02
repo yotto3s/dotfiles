@@ -1,5 +1,5 @@
 git
-gnu_parallel
+parallel
 dust
 bat
 exa

@@ -4,7 +4,7 @@ return {
     dependencies = { "nvim-tree/nvim-web-devicons" },
     config = function()
         local wilder = require('wilder')
-        wilder.setup({modes = {':', '/', '?'}})
+        wilder.setup({modes = {':'}})
 
         wilder.set_option('pipeline', {
           wilder.branch(

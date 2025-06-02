@@ -131,7 +131,7 @@ local setup_mason_lspconfig = function()
 		end
 	end
 
-	mason_lspconfig.setup_handlers({ mason_lsp_handler })
+	mason_lspconfig.setup({ mason_lsp_handler })
 end
 
 return {
