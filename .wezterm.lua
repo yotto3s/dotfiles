@@ -7,7 +7,7 @@ config.initial_rows = 480
 
 config.font_size = 12
 
-config.default_prog = { '/usr/bin/bash', '-i' }
+config.default_prog = { '/usr/bin/fish', '-l' }
 config.warn_about_missing_glyphs=false
 
 return config
