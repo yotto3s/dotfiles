@@ -154,8 +154,9 @@ ex ()
   fi
 }
 
-#[ -f "/home/yotto/.ghcup/env" ] && source "/home/yotto/.ghcup/env" # ghcup-env
+[ -f "/home/yotto/.ghcup/env" ] && source "/home/yotto/.ghcup/env" # ghcup-env
 eval "$(zoxide init bash)"
 
 [ -f "/home/yotto/.ghcup/env" ] && source "/home/yotto/.ghcup/env" # ghcup-env
-[ -f "/opt/nvim-linux64/bin" ] && PATH="$PATH:/opt/nvim-linux64/bin"
+[ -f "/opt/nvim-linux64/bin" ] && export PATH="$PATH:/opt/nvim-linux64/bin"
+[ -f "${HOME}/.pixi" ] && export PATH=${HOME}/.pixi/bin/:${PATH}
